@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo-placar{
+    background-color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-placar span{
+    color: blue;
+}
+
+.container{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.player-options img,
+.enemy-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options,
+.enemy-options{
+    flex: 1;
+    text-align: center;
+}
